@@ -29,8 +29,8 @@ class JobResponseChildrenInner(BaseModel):
     @validator('button')
     def button_validate_enum(cls, value):
         """Validates the enum"""
-        if value not in ('U1', 'U2', 'U3', 'U4', 'V1', 'V2', 'V3', 'V4', '⬅️', '➡️', '⬆️', '⬇️', '🔄', 'Vary (Strong)', 'Vary (Subtle)', 'Zoom Out 1.5x', 'Zoom Out 2x', 'Make Square', 'Make Variations', 'Remaster'):
-            raise ValueError("must be one of enum values ('U1', 'U2', 'U3', 'U4', 'V1', 'V2', 'V3', 'V4', '⬅️', '➡️', '⬆️', '⬇️', '🔄', 'Vary (Strong)', 'Vary (Subtle)', 'Zoom Out 1.5x', 'Zoom Out 2x', 'Make Square', 'Make Variations', 'Remaster')")
+        if value not in ('U1', 'U2', 'U3', 'U4', 'V1', 'V2', 'V3', 'V4', '⬅️', '➡️', '⬆️', '⬇️', '🔄', 'Vary (Strong)', 'Vary (Subtle)', 'Zoom Out 1.5x', 'Zoom Out 2x', 'Upscale (2x)', 'Upscale (4x)', 'Redo Upscale (2x)', 'Redo Upscale (4x)', 'Make Square', 'Make Variations', 'Remaster'):
+            raise ValueError("must be one of enum values ('U1', 'U2', 'U3', 'U4', 'V1', 'V2', 'V3', 'V4', '⬅️', '➡️', '⬆️', '⬇️', '🔄', 'Vary (Strong)', 'Vary (Subtle)', 'Zoom Out 1.5x', 'Zoom Out 2x', 'Upscale (2x)', 'Upscale (4x)', 'Redo Upscale (2x)', 'Redo Upscale (4x)', 'Make Square', 'Make Variations', 'Remaster')")
         return value
 
     class Config:

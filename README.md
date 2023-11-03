@@ -225,6 +225,18 @@ Authentication schemes defined for the API:
 
 - **Type**: Bearer authentication
 
+## Changelog 
+
+Version 1.0.1 | November 3, 2023  
+
+Added support for following  [jobs/button](https://useapi.net/docs/api-v1/jobs-button) options:  
+- Upscale (2x)
+- Upscale (4x)
+- Redo Upscale (2x)
+- Redo Upscale (4x)
+
 ## Support 
 
-Visit our [Discord Server](https://discord.gg/2QBMuXTP) for any additional support and questions.
+Visit our   
+-  [Discord Server](https://discord.gg/w28uK3cnmF) for any additional support and questions.
+- [YouTube Channel](https://www.youtube.com/@midjourneyapi) for tutorials and demos.
