@@ -239,4 +239,4 @@ Added support for following  [jobs/button](https://useapi.net/docs/api-v1/jobs-b
 
 Visit our   
 -  [Discord Server](https://discord.gg/w28uK3cnmF) for any additional support and questions.
-- [YouTube Channel](https://www.youtube.com/@midjourneyapi) for tutorials and demos.
+- [YouTube Channel](https://www.youtube.com/@useapi-net) for tutorials and demos.
